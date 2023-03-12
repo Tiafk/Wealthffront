@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  background: #18172B;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  .container {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 32px;
+    .logo {
+      cursor: pointer;
+    }
+    .navigation {
+      display: flex;
+      .list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 56px;
+        row-gap: 32px;
+        .link {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 120%;
+          text-decoration: none;
+          list-style-type: none;
+          color: #fff;
+          transition: 0.3s ease;
+          cursor: pointer;
+          &:hover {
+            color: #928dfd;
+          }
+        }
+      }
+    }
+  }
+}

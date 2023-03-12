@@ -1,0 +1,39 @@
+.saving {
+  font-family: 'Roboto';
+  font-style: normal;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  background: #4840BB;
+  .container {
+    display: flex;
+    width: 90%;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 27px;
+    .content {
+      display: flex;
+      flex-direction: column;
+      padding-right: 10px;
+      .pichers {
+        display: none;
+      }
+      .title {
+        max-width: 313px;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 120%;
+        letter-spacing: 3px;
+        color: #fff;
+      }
+      .txt {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #fff;
+        margin-top: 16px;
+      }
+    }
+  }
+}
