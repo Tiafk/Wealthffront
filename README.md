@@ -1,2 +1,2 @@
 # Wealthffront
-Простой адатив
+Простой адатив https://tiafk.github.io/Wealthffront/
